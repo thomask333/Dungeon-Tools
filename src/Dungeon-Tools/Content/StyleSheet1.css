@@ -1,0 +1,12 @@
+﻿
+h1{
+    color:blue;
+}
+.nav{
+    background-color:black;
+    font-size: 1.5vh;
+
+}
+.nav-link.disabled{
+    color: white;
+}

@@ -88,7 +88,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="App_Data\Stylesheets\StyleSheet1.css" />
+    <EmbeddedResource Include="Content\StyleSheet1.css" />
     <Content Include="Global.asax" />
     <Content Include="StyleSheet1.css" />
     <Content Include="Web.config" />
@@ -114,6 +114,7 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="App_Data\" />
     <Folder Include="Models\" />
   </ItemGroup>
   <PropertyGroup>
