@@ -1,12 +1,59 @@
 ﻿
-h1{
-    color:blue;
-}
-.nav{
-    background-color:black;
-    font-size: 1.5vh;
-
-}
-.nav-link.disabled{
+.jumbotron h1{
+    padding-top: 75px;
+    padding-left: 25px;
+    font-weight:600;
     color: white;
+   
+}
+footer{
+    position:absolute;
+    bottom:0;
+    left:250px;
+    background-color:grey;
+    width: 100%;
+    overflow-x:hidden;
+}
+#sidebar{
+    
+    width:250px;
+    background-color: black;
+  
+}
+.navlink {
+    padding: 8px;
+    display: block;
+    text-decoration: none;
+    color: white;
+}
+.sidenav {
+    height: 100%;
+    position:fixed;
+    top: 0;
+    left:0;
+}
+.jumbotron {
+    margin-left: 250px;
+    background-color: aqua;
+    height: 65%;
+    width: 100%;
+    clear: both;
+}
+body{
+    overflow-x:hidden;
+}
+
+#tagline {
+    padding-left: 30px;
+    font-weight: 600;
+    color: white;
+    font-size:large;
+    font-style:italic;
+}
+
+h4{
+  text-align:center;
+}
+.row{
+    margin-top:15px;
 }
